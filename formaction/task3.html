@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <fieldset>
+
+    <form action="./task2.html" method="get" >
+        <h2>Reset Password</h2>
+       <ion-icon style="font-size: 64px;" name="lock-closed-outline"></ion-icon><br><br><br>
+        
+        <label for="password">New Password :</label>
+        <input type="password" id="password" name="password" ><ion-icon name="eye-off-outline"></ion-icon><br><br>
+        <label for="confirm password">Confirm Password :</label>
+        <input type="password" id="confirm password" name="confirm password"><br><br>
+        <label for="safety">Select a secondary verification method :</label>
+        <select id="safety" name="safety">
+            <option>select one option</option>
+            <option value="school">name of your first school is GPT</option>
+            <option value="pet"> name of your first pet is bittu</option>
+            <option value="teacher">name of your first friend sravani</option>
+        </select><br><br>
+
+        <input type="submit" value="login" >
+    </form>
+</fieldset>
+</body>
+</html>
